@@ -1,0 +1,2 @@
+gcloud auth activate-service-account --key-file=deft-reflection-375508-5ca9f756a59c.json & gcloud compute instances create instance-1  --machine-type=e2-micro --zone=us-central1-b  --preemptible --no-restart-on-failure  --maintenance-policy=terminate  --image-family=rhel-8 --image-project=rhel-cloud
+pause
